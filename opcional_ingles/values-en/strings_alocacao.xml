@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alocacao_titulo">Investment split</string>
+    <string name="alocacao_explicacao">Choose the percentage for each method. The total must be 100%% before you can save.</string>
+    <string name="alocacao_percentagem">%1$d%%</string>
+    <string name="alocacao_total">Total: %1$d%%</string>
+    <string name="alocacao_total_falta">Total: %1$d%% (%2$d%% left)</string>
+    <string name="alocacao_total_sobra">Total: %1$d%% (%2$d%% over)</string>
+    <string name="alocacao_guardar">Save</string>
+    <string name="alocacao_repor">Restore defaults</string>
+    <string name="alocacao_guardada">Split saved</string>
+    <string name="metodo_etfs">ETFs</string>
+    <string name="metodo_cripto">Crypto</string>
+    <string name="metodo_acoes">Stocks</string>
+    <string name="metodo_reits">REITs</string>
+    <string name="metodo_reserva">Cash reserve</string>
+</resources>

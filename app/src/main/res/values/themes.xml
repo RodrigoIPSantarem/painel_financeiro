@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Painel" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaria</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorPrimaryContainer">@color/menta</item>
+        <item name="colorOnPrimaryContainer">@color/tinta</item>
+        <item name="colorSurface">@android:color/white</item>
+        <item name="colorOnSurface">@color/tinta</item>
+        <item name="colorOutline">@color/linha</item>
+        <item name="android:colorBackground">@color/fundo</item>
+        <item name="android:windowBackground">@color/fundo</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Painel.Titulo" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/tinta</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Painel.Subtitulo" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/tinta</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Painel.Corpo" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/apagado</item>
+    </style>
+    <style name="Painel.Valor" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textColor">@color/tinta</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+    <style name="Painel.Cartao" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardBackgroundColor">@android:color/white</item>
+        <item name="strokeColor">@color/linha</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+</resources>

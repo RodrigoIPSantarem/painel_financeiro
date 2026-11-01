@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Painel Financeiro</string>
+
+    <!-- Separadores -->
+    <string name="tab_este_mes">Este mês</string>
+    <string name="tab_valores">Os meus valores</string>
+    <string name="tab_rentabilidade">Rentabilidade</string>
+    <string name="tab_dados">Dados</string>
+    <string name="tab_historico">Histórico</string>
+
+    <!-- Histórico -->
+    <string name="historico_titulo">Histórico</string>
+    <string name="historico_ajuda">Todos os meses que registou, por ano. Toque em "Abrir" para ver, corrigir ou registar esse mês.</string>
+    <string name="historico_vazio">Ainda não há meses registados. Comece em "Este mês".</string>
+    <string name="total_desde_inicio">Desde o início: recebeu %1$s e investiu %2$s.</string>
+    <string name="ano_resumo">recebeu %1$s · investiu %2$s · %3$d meses com receita, %4$d com investimento registado</string>
+
+    <!-- Este mês -->
+    <string name="mes_anterior">Anterior</string>
+    <string name="mes_seguinte">Seguinte</string>
+    <string name="desc_mes_anterior">Mês anterior</string>
+    <string name="desc_mes_seguinte">Mês seguinte</string>
+    <string name="voltar_a_este_mes">Voltar a este mês</string>
+    <string name="escolher_mes">Escolher mês</string>
+    <string name="este_mes">Este mês</string>
+    <string name="mes_passado">Mês anterior: pode registar ou corrigir</string>
+    <string name="mes_futuro">Mês futuro</string>
+    <string name="quanto_recebeu">Quanto recebeu em %1$s?</string>
+    <string name="receita">Receita</string>
+    <string name="guardar_receita">Guardar receita</string>
+    <string name="para_onde_vai">Para onde vai o dinheiro</string>
+    <string name="onde_investir">Onde investir os %1$s</string>
+    <string name="onde_investir_ajuda">Quem está abaixo da meta recebe mais. Quem já está acima não recebe nada, porque não se vende para rebalancear.</string>
+    <string name="somar_aos_totais">Somar estes valores aos totais de cada tipo de ativo</string>
+    <string name="somar_passado">(desligado por omissão em meses passados, porque os totais atuais já devem incluir este dinheiro)</string>
+    <string name="ja_investi">Já investi</string>
+    <string name="sem_investimento_titulo">Este mês não há investimento</string>
+    <string name="sem_investimento_texto">Veja o aviso abaixo.</string>
+    <string name="mes_registado">%1$s já está registado</string>
+    <string name="mes_registado_texto">Investiu %1$s: %2$s.</string>
+    <string name="totais_nao_alterados">(Os totais dos ativos não foram alterados.)</string>
+    <string name="anular">Anular</string>
+    <string name="meses_registados">Meses registados</string>
+    <string name="recebeu_investiu">recebeu %1$s · investiu %2$s</string>
+    <string name="investimento_por_registar">investimento por registar</string>
+    <string name="abrir">Abrir</string>
+    <string name="desc_abrir_mes">Abrir %1$s</string>
+    <string name="tem_meta">Tem %1$s (%2$s) · meta %3$s</string>
+    <string name="estado_abaixo">Abaixo da meta: reforçar</string>
+    <string name="estado_perto">Perto da meta</string>
+    <string name="estado_acima">Acima da meta: não reforçar</string>
+    <string name="confirmar_investir">Marcar %1$s como investidos em %2$s?%3$s</string>
+    <string name="confirmar_investir_somar"> Isto soma cada valor ao total do respetivo tipo de ativo.</string>
+    <string name="confirmar_investir_nao_somar"> Os totais dos ativos não são alterados.</string>
+    <string name="confirmar_anular">Anular o investimento de %1$s? %2$s</string>
+    <string name="confirmar_anular_somado">Os totais voltam ao que eram.</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aviso_abrir_valores">Abra "Os meus valores" para completar.</string>
+
+    <!-- Os meus valores -->
+    <string name="os_meus_valores">Os meus valores</string>
+    <string name="valores_ajuda">Atualize quando quiser, por exemplo uma vez por mês. É só olhar para o total de cada tipo na corretora.</string>
+    <string name="quanto_tem">Quanto tem em cada tipo de ativo</string>
+    <string name="campo_etfs">ETFs core (€)</string>
+    <string name="campo_acoes">Ações individuais (€)</string>
+    <string name="campo_terras">REITs (terras) (€)</string>
+    <string name="campo_cripto">Criptomoedas (€)</string>
+    <string name="campo_reserva">Reserva / caixa (€)</string>
+    <string name="campo_renda_fixa">Renda fixa (€)</string>
+    <string name="total_valor">Total: %1$s</string>
+    <string name="definicoes">Definições</string>
+    <string name="definicoes_ajuda">Raramente mudam. Servem para o plano saber se pode investir este mês.</string>
+    <string name="despesas_fixas">Despesas fixas por mês (€)</string>
+    <string name="fundo_emergencia">Fundo de emergência (€)</string>
+    <string name="dividas">Dívidas</string>
+    <string name="fase_idade">Fase de idade</string>
+    <string name="sem_dividas">Não tenho dívidas</string>
+    <string name="zona_x">Zona %1$s</string>
+    <string name="guardar">Guardar</string>
+    <string name="guardado">Guardado.</string>
+
+    <!-- Rentabilidade -->
+    <string name="rentabilidade_titulo">Rentabilidade anual</string>
+    <string name="rentabilidade_ajuda">A 31 de dezembro e no aniversário do investimento, registe quanto investiu e quanto tem. A app calcula o ganho e a rentabilidade (método Dietz Modificado, encadeado entre registos).</string>
+    <string name="valor_ultimo_registo">Valor no último registo</string>
+    <string name="capital_investido">Capital investido</string>
+    <string name="ganho">Ganho ou perda</string>
+    <string name="ganho_valor">%1$s (%2$s)</string>
+    <string name="sem_capital">Indique o capital investido no registo para ver o ganho.</string>
+    <string name="grafico_titulo">Capital investido e valor em cada registo</string>
+    <string name="grafico_legenda">Cinzento: capital investido · Verde: valor que tinha</string>
+    <string name="grafico_descricao">Gráfico com %1$d registos. No último, investido %2$s e valor %3$s.</string>
+    <string name="novo_registo_botao">Novo registo</string>
+    <string name="editar_registo">Editar registo</string>
+    <string name="tocar_para_editar">Toque num registo para o editar.</string>
+    <string name="campo_capital">Capital realmente investido até esta data (€)</string>
+    <string name="valores_na_data">Quanto tinha em cada tipo nessa data (preenchido com "Os meus valores")</string>
+    <string name="aportes_auto">Aportes do período (€), opcional: em branco calcula-se pela diferença do capital investido</string>
+    <string name="registo_linha_valor">Valor %1$s · investido %2$s</string>
+    <string name="registo_linha_valor_sem">Valor %1$s · capital investido por indicar</string>
+    <string name="registo_linha_ganho">Ganho %1$s (%2$s)</string>
+    <string name="registo_linha_rent">Período %1$s · acumulada %2$s</string>
+    <string name="rent_acumulada">Rentabilidade acumulada</string>
+    <string name="rent_ultimo">Último período</string>
+    <string name="rent_aportes">Aportes registados</string>
+    <string name="desde">Desde %1$s</string>
+    <string name="ate">Até %1$s</string>
+    <string name="sem_registos">Sem registos</string>
+    <string name="novo_registo">Novo registo a partir dos valores atuais</string>
+    <string name="novo_registo_ajuda">Usa os valores atuais de cada tipo de ativo. Se deixar os aportes em branco, soma o que marcou como investido nos meses desde o registo anterior. A Reserva/Caixa fica de fora do cálculo.</string>
+    <string name="escolher_data">Escolher data</string>
+    <string name="data_x">Data: %1$s</string>
+    <string name="tipo_registo">Tipo de registo</string>
+    <string name="aportes_opcional">Aportes no período (€), opcional</string>
+    <string name="criar_registo">Criar registo</string>
+    <string name="registos">Registos</string>
+    <string name="remover">Remover</string>
+    <string name="desc_remover_registo">Remover registo de %1$s</string>
+    <string name="confirmar_remover_registo">Remover o registo de %1$s?</string>
+    <string name="registo_total">Total %1$s · aportes %2$s</string>
+    <string name="registo_periodos">Período %1$s · acumulada %2$s</string>
+    <string name="tipo_inicio">Início</string>
+    <string name="tipo_31dez">31 de dezembro</string>
+    <string name="tipo_aniversario">Aniversário</string>
+
+    <!-- Dados -->
+    <string name="dados_titulo">Dados</string>
+    <string name="dados_ajuda">Tudo fica guardado neste aparelho, sem internet e sem conta. Para ter os mesmos dados no telemóvel e noutro aparelho, exporte um ficheiro num e importe no outro.</string>
+    <string name="copia_seguranca">Cópia de segurança</string>
+    <string name="neste_aparelho">Neste aparelho: %1$d meses, %2$d registos de rentabilidade.</string>
+    <string name="exportar">Exportar ficheiro</string>
+    <string name="exportar_ajuda">Escolha onde guardar (por exemplo no Google Drive). Guarde uma cópia de vez em quando: se desinstalar a app ou apagar os dados do aparelho, perdem-se.</string>
+    <string name="importar_titulo">Importar</string>
+    <string name="importar_pergunta">O que fazer com os dados deste aparelho?</string>
+    <string name="modo_juntar">Juntar: em cada mês, nos registos e nas definições fica o mais recente. Use para sincronizar dois aparelhos.</string>
+    <string name="modo_substituir">Substituir tudo: apaga o que está aqui e fica só o que vem no ficheiro. Use para recuperar uma cópia ou mudar de telemóvel.</string>
+    <string name="importar_ficheiro">Importar ficheiro…</string>
+    <string name="confirmar_substituir">Isto substitui TODOS os dados deste aparelho pelos do ficheiro. Continuar?</string>
+    <string name="protocolo_titulo">Parâmetros do protocolo</string>
+    <string name="protocolo_exemplo">Está a usar valores de exemplo (matriz por idade, divisão dos ETFs, zonas de dívida). Para usar os seus, importe um ficheiro .json só com o que quer alterar.</string>
+    <string name="protocolo_pessoal">Está a usar os seus parâmetros (guardados só neste aparelho). Pode importar outro ficheiro .json para os alterar.</string>
+    <string name="importar_parametros">Importar parâmetros…</string>
+    <string name="repor_parametros">Repor valores de exemplo</string>
+    <string name="confirmar_repor">Voltar aos valores de exemplo do protocolo?</string>
+    <string name="outras_opcoes">Outras opções</string>
+    <string name="carregar_exemplo">Carregar dados de exemplo</string>
+    <string name="confirmar_exemplo">Carregar dados fictícios? Substitui os dados atuais deste aparelho.</string>
+    <string name="apagar_tudo">Apagar todos os dados</string>
+    <string name="confirmar_apagar">Apagar TODOS os dados deste aparelho? Esta ação não se pode desfazer (exporte antes uma cópia de segurança).</string>
+
+    <string name="msg_exportado">Cópia de segurança guardada.</string>
+    <string name="msg_juntado">Dados juntados: em cada mês ficou o registo mais recente.</string>
+    <string name="msg_substituido">Dados substituídos pelos do ficheiro.</string>
+    <string name="msg_protocolo_guardado">Parâmetros do protocolo guardados neste aparelho.</string>
+    <string name="msg_protocolo_reposto">Parâmetros repostos.</string>
+    <string name="msg_exemplo">Dados de exemplo carregados.</string>
+    <string name="msg_apagado">Dados apagados.</string>
+    <string name="msg_erro_ficheiro">Não foi possível ler ou escrever o ficheiro.</string>
+</resources>

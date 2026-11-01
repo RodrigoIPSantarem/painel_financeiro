@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rentabilidade_titulo"
+            android:textAppearance="@style/Painel.Titulo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rentabilidade_ajuda"
+            android:textAppearance="@style/Painel.Corpo" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnNovo"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/novo_registo_botao"
+            android:textSize="18sp" />
+
+        <!-- Resumo -->
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Painel.Cartao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/valor_ultimo_registo"
+                    android:textAppearance="@style/Painel.Corpo" />
+
+                <TextView
+                    android:id="@+id/tvValor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/Painel.Valor"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/capital_investido"
+                    android:textAppearance="@style/Painel.Corpo" />
+
+                <TextView
+                    android:id="@+id/tvInvestido"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/Painel.Valor" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/ganho"
+                    android:textAppearance="@style/Painel.Corpo" />
+
+                <TextView
+                    android:id="@+id/tvGanho"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/Painel.Valor" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/rent_acumulada"
+                    android:textAppearance="@style/Painel.Corpo" />
+
+                <TextView
+                    android:id="@+id/tvAcumulada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/Painel.Valor" />
+
+                <TextView
+                    android:id="@+id/tvAcumuladaNota"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/Painel.Corpo" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/rent_ultimo"
+                    android:textAppearance="@style/Painel.Corpo" />
+
+                <TextView
+                    android:id="@+id/tvUltimo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/Painel.Valor" />
+
+                <TextView
+                    android:id="@+id/tvUltimoNota"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/Painel.Corpo" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Gráfico -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardGrafico"
+            style="@style/Painel.Cartao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/grafico_titulo"
+                    android:textAppearance="@style/Painel.Subtitulo" />
+
+                <pt.painelfinanceiro.app.ui.GraficoBarrasView
+                    android:id="@+id/grafico"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/grafico_legenda"
+                    android:textAppearance="@style/Painel.Corpo" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Registos -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardRegistos"
+            style="@style/Painel.Cartao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/registos"
+                    android:textAppearance="@style/Painel.Subtitulo" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tocar_para_editar"
+                    android:textAppearance="@style/Painel.Corpo" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvRegistos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

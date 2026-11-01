@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alocacao_titulo">Distribuição do investimento</string>
+    <string name="alocacao_explicacao">Escolhe a percentagem de cada método. O total tem de dar 100%% para poderes guardar.</string>
+    <string name="alocacao_percentagem">%1$d%%</string>
+    <string name="alocacao_total">Total: %1$d%%</string>
+    <string name="alocacao_total_falta">Total: %1$d%% (faltam %2$d%%)</string>
+    <string name="alocacao_total_sobra">Total: %1$d%% (sobram %2$d%%)</string>
+    <string name="alocacao_guardar">Guardar</string>
+    <string name="alocacao_repor">Repor valores de origem</string>
+    <string name="alocacao_guardada">Distribuição guardada</string>
+    <string name="metodo_etfs">ETFs</string>
+    <string name="metodo_cripto">Criptoativos</string>
+    <string name="metodo_acoes">Ações</string>
+    <string name="metodo_reits">REITs</string>
+    <string name="metodo_reserva">Reserva</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fundo">#F1F4F2</color>
+    <color name="tinta">#10201A</color>
+    <color name="apagado">#4F5E57</color>
+    <color name="primaria">#0B6B5D</color>
+    <color name="menta">#E3EFEA</color>
+    <color name="linha">#D9E0DC</color>
+    <color name="positivo">#1B6E43</color>
+    <color name="negativo">#B3382C</color>
+    <color name="aviso_fundo">#FDF3DF</color>
+    <color name="aviso_texto">#6B4A08</color>
+    <color name="estado_abaixo">#1A4D8C</color>
+    <color name="estado_acima">#8A4A08</color>
+
+    <color name="pilar_etfs">#0B6B5D</color>
+    <color name="pilar_acoes">#3D5A98</color>
+    <color name="pilar_cripto">#D98324</color>
+    <color name="pilar_terras">#7A4E9E</color>
+    <color name="pilar_reserva">#8A968E</color>
+    <color name="pilar_renda_fixa">#5A6B64</color>
+
+    <color name="div_despesas">#10201A</color>
+    <color name="div_desejos">#D98324</color>
+    <color name="div_fundo">#3D5A98</color>
+    <color name="div_investimento">#0B6B5D</color>
+    <color name="div_amortizacao">#B3382C</color>
+</resources>

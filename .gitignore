@@ -1,0 +1,15 @@
+# Compilação e ferramentas
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+*.apk
+*.aab
+
+# Dados pessoais (nunca no Git)
+protocolo-pessoal.json
+painel-dados-*.json
+*.keystore
+*.jks
