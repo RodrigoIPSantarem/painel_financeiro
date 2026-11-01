@@ -1,0 +1,10 @@
+O Painel Financeiro é um painel simples para acompanhar o teu plano de investimento mensal.
+
+<b>O que faz</b>
+<ul>
+<li>Regista cada investimento com um toque («Já investi») e atualiza os totais.</li>
+<li>Permite definir metas e acompanhar o progresso.</li>
+<li>Guarda os dados apenas no telemóvel, numa base de dados local.</li>
+</ul>
+
+Sem anúncios e sem rastreamento. Projeto académico de código aberto (GPL-3.0).

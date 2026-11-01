@@ -1,0 +1,10 @@
+Painel Financeiro is a simple dashboard to follow your monthly investment plan.
+
+<b>Features</b>
+<ul>
+<li>Log each investment with one tap ("Já investi") and update your totals.</li>
+<li>Set goals and track your progress.</li>
+<li>Your data stays on your phone, in a local database.</li>
+</ul>
+
+No ads and no tracking. Open-source academic project (GPL-3.0).

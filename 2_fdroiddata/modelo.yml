@@ -1,0 +1,24 @@
+Categories:
+  - Finance Manager
+License: GPL-3.0-or-later
+AuthorName: {{Rodrigo Silva}}
+SourceCode: https://github.com/{{RodrigoIPSantarem}}/{{REPOSITORIO}}
+IssueTracker: https://github.com/{{RodrigoIPSantarem}}/{{REPOSITORIO}}/issues
+
+AutoName: Painel Financeiro
+
+RepoType: git
+Repo: https://github.com/{{RodrigoIPSantarem}}/{{REPOSITORIO}}.git
+
+Builds:
+  - versionName: {{VERSION_NAME}}
+    versionCode: {{VERSION_CODE}}
+    commit: {{COMMIT}}
+    subdir: app
+    gradle:
+      - yes
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: {{VERSION_NAME}}
+CurrentVersionCode: {{VERSION_CODE}}
